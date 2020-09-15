@@ -28,14 +28,47 @@
 
 }
 .heroImg{
-    height:600px;
-    width:500px;
+    height:30%;
+    width:30%;
     padding:25px;
     margin: 0 auto;
+    float:left;
+    margin-left:10px;
+}
+
+.hero-text{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:black;
+}
+.button{
+    font-size:20px;
+    border:none;
+    outline:0;
+    display:inline-block;
+    padding:14px 40px;
+    color:black;
+    background-color:#e7e7e7; color:black;
+    text-align:center;
+    cursor:pointer;
 }
 .footer{
-    background-color:#373738
+    background-color:#373738;
+    bottom:0;
+    width: 100%;
+    position: fixed;
 }
 .footer_text{
     color:white;
+}
+.footer_text li{
+    display:inline;
+    font: size 20px;
+    padding: 20px;
+    vertical-align: top;
+    width:50%;
+    margin-right:auto;
 }
